@@ -10,11 +10,15 @@ username = gets.chomp.downcase
 
 puts "Password:"
 password = gets.chomp.downcase
-puts "Hello! Are you sure you would like to sign up?"
-sure = gets.chomp.downcase
 
-if sure = "yes"
+puts "Enter Birthday (mm/dd/yy):"
+birthday = gets.chomp
+
+puts "Do you accept all terms & conditions?"
+accept = gets.chomp.downcase
+
+if accept = "yes"
   puts "You're in!"
-elsif sure = "no"
+elsif accept = "no"
   puts "Snap you later."
 end
