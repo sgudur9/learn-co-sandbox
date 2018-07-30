@@ -5,6 +5,11 @@ class Snapchat
   end
 end
 
+puts "Username:"
+username = gets.chomp.downcase
+
+puts "Password:"
+password = gets.chomp.downcase
 puts "Hello! Are you sure you would like to sign up?"
 sure = gets.chomp.downcase
 
