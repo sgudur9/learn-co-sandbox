@@ -17,8 +17,8 @@ birthday = gets.chomp
 puts "Do you accept all terms & conditions?"
 accept = gets.chomp.downcase
 
-if accept = "yes"
+if accept == "yes"
   puts "You're in!"
-elsif accept = "no"
+elsif accept == "no"
   puts "Snap you later."
 end
