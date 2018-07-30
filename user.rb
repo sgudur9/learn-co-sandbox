@@ -8,4 +8,8 @@ end
 puts "Hello! Are you sure you would like to sign up?"
 sure = gets.chomp.downcase
 
-if 
+if sure = "yes"
+  puts "You're in!"
+elsif sure = "no"
+  puts "Why you here?"
+end
