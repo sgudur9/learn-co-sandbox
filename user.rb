@@ -11,5 +11,5 @@ sure = gets.chomp.downcase
 if sure = "yes"
   puts "You're in!"
 elsif sure = "no"
-  puts "Why you here?"
+  puts "Snap you later."
 end
